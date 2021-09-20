@@ -17,14 +17,5 @@ pipeline {
                
             }
         }
-
-
-        stage ('Deployment Stage') {
-            steps {
-               
-                    sh 'mvn deploy'
-               
-            }
-        }
     }
 }
